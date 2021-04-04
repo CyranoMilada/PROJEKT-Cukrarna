@@ -85,6 +85,20 @@ h3 {
 	list-style: none;	
 }
 
+.menu a {
+	color: #303339;
+	text-decoration: none;
+	padding: 10px 15px;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+	color: white;
+	background-color: #d2567d;
+	border-radius: 20px;
+}
+
 .uvod {
 	background-color: #f0f0f0;
 	background-image: url(images/cupcake.jpg);
@@ -118,6 +132,15 @@ h3 {
 .levysloupec,
 .pravysloupec {
 	flex-basis: 50%;
+	flex-grow: 1;
+}
+
+.levysloupec a {
+	padding: 10px 15px;
+	color: white;
+	text-decoration: none;
+	background-color: #d2567d;
+	border-radius: 30px;
 }
 
 .pravysloupec img {
@@ -129,6 +152,10 @@ h3 {
 	background-color: #f0f0f0;
 	background-size: cover;
 }
+
+.odsazeni{
+	padding-top: 80px;
+} 
 
 .dnes {
 	display: flex;
