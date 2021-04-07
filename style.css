@@ -106,6 +106,7 @@ h3 {
 }
 
 .poteseni {
+	color: white;
 	margin-top: 30px;
 	display: flex;
 	align-items: flex-start;
@@ -127,6 +128,7 @@ h3 {
 
 .vitejte {
 	display: flex;
+
 }
 
 .levysloupec,
@@ -137,15 +139,26 @@ h3 {
 
 .levysloupec a {
 	padding: 10px 15px;
+	margin-top: 50px;
 	color: white;
 	text-decoration: none;
+	background-color: #f195b2;
+	border-radius: 30px;
+}
+
+.levysloupec a:hover,
+.levysloupec a:focus,
+.levysloupec a:active {
+	color: white;
 	background-color: #d2567d;
 	border-radius: 30px;
 }
 
-.pravysloupec img {
+
+.cukrarka {
 	padding-left: 30px;
 	border-radius: 5px;
+	width: 100%;
 }
 
 .nabidka {
@@ -183,8 +196,10 @@ h3 {
 	display: flex;	
 }
 
-.pristup img {	
+.levysloupec img {	
 	border-radius: 5px;
+	width: 100%;
+	padding-right: 30px;
 }
 
 .paticka {
